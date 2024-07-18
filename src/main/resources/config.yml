@@ -4,16 +4,16 @@ lang:
     reject-join-no-whitelist: ":( 此 ID 还未处于白名单中"
     reject-join-incorrect-cases: "您正在使用 {0} 加入服务器，但您申请的白名单为 {1}，请保持用户名大小写一致"
   wladd:
-    bad-arguments: "<red>参数错误：/riawladd <玩家ID> <担保人（若无请填SakamotoSan）> <ZTH列车号（担保或史前时代，请填 ZTH-000）> <白名单添加备注>\n<gray>示例：/riawladd Ghost_chu SakamotoSan ZTH-110 2077年1月1日白名单批量发车"
+    bad-arguments: "<red>参数错误：/wladd <玩家ID> <担保人（若无请填Unknown）> <审核批次号（担保或史前时代，请填 000）> <白名单添加备注>\n<gray>示例：/wladd Bot_Sleep Mint_kkr NLK-110 2077年1月1日白名单批量审核通过"
     success: "<green><yellow>{0} (ID: {1})</yellow> 的白名单已成功添加"
-    error-no-updates: "<red>添加失败，此玩家可能已经有白名单了，使用 /riawlquery <玩家ID> 查询白名单详情"
+    error-no-updates: "<red>添加失败，此玩家可能已经有白名单了，使用 /wlquery <玩家ID> 查询白名单详情"
   wlremove:
-    bad-arguments: "<red>参数错误：/riawlremove <玩家ID> <删除原因>\n<gray>示例：/riawlremove Ghost_chu 用于测试删除功能"
+    bad-arguments: "<red>参数错误：/wlremove <玩家ID> <删除原因>\n<gray>示例：/wlremove Ghost_chu 用于测试删除功能"
     error-no-updates: "<red>删除失败，共 0 行数据被更新，指定要删除的玩家 ID 是否本就没有白名单？"
     success: "<green><yellow>{0}</yellow> 的白名单已成功移除"
   wlquery:
-    bad-arguments: "<red>参数错误：/riawlquery <玩家ID>\n<gray>示例：/riawlremove Ghost_chu"
-    entry: "ID: {0} - {1} - {2}\n担保人：<gray>{3}</gray> 操作员：<gray>{4}</gray>\n发车号：<gray>{5}</gray>\n描述：<gray>{6}</gray>\n删除于：<gray>{7}</gray> 删除操作员：<gray>{8}</gray>\n删除原因：<gray>{9}</gray>"
+    bad-arguments: "<red>参数错误：/wlquery <玩家ID>\n<gray>示例：/wlremove Bot_Sleep"
+    entry: "ID: {0} - {1} - {2}\n担保人：<gray>{3}</gray> 操作员：<gray>{4}</gray>\n审核批次号：<gray>{5}</gray>\n描述：<gray>{6}</gray>\n删除于：<gray>{7}</gray> 删除员：<gray>{8}</gray>\n删除原因：<gray>{9}</gray>"
     valid: "<green>生效中</green>"
     invalid: "<red>被移除</red>"
     no-guarantor: "<gray>无担保人</gray>"
