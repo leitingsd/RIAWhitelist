@@ -12,7 +12,7 @@ public class RIAWlAdd extends Command {
     private final RIAWhitelist plugin;
 
     public RIAWlAdd(RIAWhitelist plugin) {
-        super("riawladd", "riawhitelist.add", "riawhitelistadd", "rwladd");
+        super("wladd", "whitelist.add", "whitelistadd", "nwladd");
         this.plugin = plugin;
     }
 

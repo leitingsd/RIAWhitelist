@@ -14,7 +14,7 @@ public class RIAWlQuery extends Command {
     private final SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
 
     public RIAWlQuery(RIAWhitelist plugin) {
-        super("riawlquery", "riawhitelist.query", "riawhitelistquery", "rwlquery", "riawlcheck", "riawhitelistcheck", "rwlcheck");
+        super("wlquery", "whitelist.query", "whitelistquery", "nwlquery", "wlcheck", "whitelistcheck", "nwlcheck");
         this.plugin = plugin;
     }
 

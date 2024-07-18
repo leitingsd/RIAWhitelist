@@ -10,7 +10,7 @@ public class RIAWlRemove extends Command {
     private final RIAWhitelist plugin;
 
     public RIAWlRemove(RIAWhitelist plugin) {
-        super("riawlremove", "riawhitelist.remove", "riawhitelistremove", "rwlremove");
+        super("wlremove", "whitelist.remove", "whitelistremove", "nwlremove");
         this.plugin = plugin;
     }
 
