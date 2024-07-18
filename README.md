@@ -17,18 +17,18 @@
 ### 添加白名单
 
 ```
-/riawladd <玩家ID> <担保人（若无请填SakamotoSan）> <ZTH列车号（担保或史前时代，请填 ZTH-000）> <白名单添加备注>
+/wladd <玩家ID> <担保人（若无请填Unknown）> <审核批次号（担保或史前时代，请填 000）> <白名单添加备注>
 ```
 
 ### 移除白名单
 
 ```
-/riawlremove <玩家ID> <删除原因>
+/wlremove <玩家ID> <删除原因>
 ```
 
 ### 查询白名单
 
 ```
-/riawlquery <玩家ID>
+/wlquery <玩家ID>
 ```
 
