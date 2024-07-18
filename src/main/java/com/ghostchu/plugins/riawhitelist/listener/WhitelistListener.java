@@ -22,7 +22,7 @@ public class WhitelistListener implements Listener {
         String username = event.getConnection().getName();
         if (username == null) {
             event.setCancelled(true);
-            event.setCancelReason("[RIAWhitelist] Username in connection cannot be null");
+            event.setCancelReason("[Whitelist] Username in connection cannot be null");
             return;
         }
         event.registerIntent(plugin);
