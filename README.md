@@ -1,6 +1,6 @@
 # RIAWhitelist
 
-[BungeeCord] 可追踪添加和移除的离线模式白名单系统
+[Velocity] 可追踪添加和移除的离线模式白名单系统
 
 ## 截图
 
